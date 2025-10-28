@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aryan Jha • Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+    <div class="nav-logo"><a href="#">Aryan Jha</a></div>
+    <ul class="nav-menu">
+    <li><a class="nav-link" href="#home">Home</a></li>
+    <li><a class="nav-link" href="#projects">Projects</a></li>
+    <li><a class="nav-link" href="#skills">Skills</a></li>
+    <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-container">
+    <div>
+    <h1 class="hero-title">Systems Engineering Student</h1>
+    <h2 class="hero-subtitle">CAD/CAM • FEM • Microcontrollers • Automation</h2>
+    <p class="hero-description">
+    Enthusiastic Systems Engineering student with hands-on experience in CAD/CAM, FEM analysis, microcontroller programming, and automation. Passionate about learning and applying new technologies in digital manufacturing and Industry 4.0.
+    </p>
+    <div class="hero-buttons">
+    <a class="btn btn-primary" href="#projects"><i class="fa-solid fa-diagram-project"></i> View Projects</a>
+    <a class="btn btn-secondary" href="assets/CV.pdf" download><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+    </div>
+    <div class="hero-location"><i class="fa-solid fa-location-dot"></i> Saarbrücken, Germany</div>
+    </div>
+    <div class="profile-card">
+    <img src="assets/profile.jpg" alt="Aryan Jha" class="profile-image"/>
+    </div>
+    </div>
+  </header>
+
+  <section id="projects" class="projects">
+    <div class="container">
+    <h3 class="section-title">Featured Projects</h3>
+
+    <div class="projects-grid">
+    <!-- Power Transmission System -->
+    <article class="project-card">
+    <div class="project-image">Power Transmission</div>
+    <div class="project-content">
+    <h3>Power Transmission System</h3>
+    <p>Mechanical assembly design with gears and bearings (Inventor). Focus on component fit and motion.</p>
+    <div class="project-tags">
+    <span class="tag">SolidWorks</span>
+    <span class="tag">Mechanical Design</span>
+    <span class="tag">Assembly</span>
+    </div>
+    <a class="project-file-link" href="assets/projects/power-transmission.pdf" download>
+    <i class="fa-solid fa-file-pdf"></i> View PDF
+    </a>
+    <a class="project-file-link" href="assets/projects/power-transmission.zip" download>
+    <i class="fa-solid fa-file-zipper"></i> Download Files
+    </a>
+    </div>
+    </article>
+
+    <!-- Heat Sink Thermal Analysis -->
+    <article class="project-card">
+    <div class="project-image">Heat Sink Analysis</div>
+    <div class="project-content">
+    <h3>Heat Sink Thermal Analysis</h3>
+    <p>FEM thermal optimization for cooling performance (ANSYS), including transient simulations and comparison of fin profiles.</p>
+    <div class="project-tags">
+    <span class="tag">Inventor</span>
+    <span class="tag">FEM</span>
+    <span class="tag">Thermal Analysis</span>
+    </div>
+    <a class="project-file-link" href="assets/projects/heat-sink-thermal-analysis.pdf" download>
+    <i class="fa-solid fa-file-pdf"></i> View PDF
+    </a>
+    <a class="project-file-link" href="assets/projects/heat-sink-thermal-analysis.zip" download>
+    <i class="fa-solid fa-file-zipper"></i> Download Files
+    </a>
+    </div>
+    </article>
+
+    <!-- Shock Absorber Design -->
+    <article class="project-card">
+    <div class="project-image">Shock Absorber</div>
+    <div class="project-content">
+    <h3>Shock Absorber Design</h3>
+    <p>Spring system with stress analysis and optimization (Inventor, FEM). Evaluated preload, travel, and material safety factors.</p>
+    <div class="project-tags">
+    <span class="tag">Inventor</span>
+    <span class="tag">FEM</span>
+    <span class="tag">Stress Analysis</span>
+    </div>
+    <a class="project-file-link" href="assets/projects/shock-absorber-design.pdf" download>
+    <i class="fa-solid fa-file-pdf"></i> View PDF
+    </a>
+    <a class="project-file-link" href="assets/projects/shock-absorber-design.zip" download>
+    <i class="fa-solid fa-file-zipper"></i> Download Files
+    </a>
+    </div>
+    </article>
+
+    <!-- Component Library -->
+    <article class="project-card">
+    <div class="project-image">Component Library</div>
+    <div class="project-content">
+    <h3>Component Library</h3>
+    <p>Parametric CAD models of mechanical parts (SolidWorks, Inventor). Built reusable templates for fast design iterations.</p>
+    <div class="project-tags">
+    <span class="tag">SolidWorks</span>
+    <span class="tag">Inventor</span>
+    <span class="tag">Parametric Design</span>
+    </div>
+    <a class="project-file-link" href="assets/projects/component-library.pdf" download>
+    <i class="fa-solid fa-file-pdf"></i> View PDF
+    </a>
+    <a class="project-file-link" href="assets/projects/component-library.zip" download>
+    <i class="fa-solid fa-file-zipper"></i> Download Files
+    </a>
+    </div>
+    </article>
+
+    <!-- Arduino Control Systems -->
+    <article class="project-card">
+    <div class="project-image">Arduino Control</div>
+    <div class="project-content">
+    <h3>Arduino Control Systems</h3>
+    <p>Built basic automation and sensor-control projects using Arduino, including PWM motor control and serial data logging.</p>
+    <div class="project-tags">
+    <span class="tag">Arduino IDE</span>
+    <span class="tag">Control</span>
+    <span class="tag">C/C++</span>
+    </div>
+    <a class="project-file-link" href="assets/projects/arduino-control-systems.pdf" download>
+    <i class="fa-solid fa-file-pdf"></i> View PDF
+    </a>
+    <a class="project-file-link" href="assets/projects/arduino-control-systems.zip" download>
+    <i class="fa-solid fa-file-zipper"></i> Download Files
+    </a>
+    </div>
+    </article>
+    </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+  <div class="container">
+  <h3 class="section-title">Skills</h3>
+  <div class="skills-grid">
+  
+  <!-- CAD/Design -->
+  <div class="skill-category">
+  <h3><i class="fa-solid fa-cubes"></i> CAD/Design</h3>
+  <div class="skill-item"><span>Inventor</span><div class="skill-level"><div class="skill-bar" style="width:85%"></div></div></div>
+  <div class="skill-item"><span>AutoCAD</span><div class="skill-level"><div class="skill-bar" style="width:85%"></div></div></div>
+  <div class="skill-item"><span>Solidworks</span><div class="skill-level"><div class="skill-bar" style="width:70%"></div></div></div>
+  <div class="skill-item"><span>Fusion 360</span><div class="skill-level"><div class="skill-bar" style="width:60%"></div></div></div>
+  </div>
+  
+  <!-- Analysis & Simulation -->
+  <div class="skill-category">
+  <h3><i class="fa-solid fa-wave-square"></i> Analysis & Simulation</h3>
+  <div class="skill-item"><span>FEM</span><div class="skill-level"><div class="skill-bar" style="width:80%"></div></div></div>
+  <div class="skill-item"><span>MATLAB</span><div class="skill-level"><div class="skill-bar" style="width:80%"></div></div></div>
+  <div class="skill-item"><span>Simulink</span><div class="skill-level"><div class="skill-bar" style="width:75%"></div></div></div>
+  <div class="skill-item"><span>ANSYS</span><div class="skill-level"><div class="skill-bar" style="width:60%"></div></div></div>
+  </div>
+  
+  <!-- Embedded Systems -->
+  <div class="skill-category">
+  <h3><i class="fa-solid fa-microchip"></i> Embedded Systems</h3>
+  <div class="skill-item"><span>Arduino</span><div class="skill-level"><div class="skill-bar" style="width:75%"></div></div></div>
+  <div class="skill-item"><span>Raspberry Pi</span><div class="skill-level"><div class="skill-bar" style="width:65%"></div></div></div>
+  <div class="skill-item"><span>ESP32</span><div class="skill-level"><div class="skill-bar" style="width:60%"></div></div></div>
+  <div class="skill-item"><span>PIC</span><div class="skill-level"><div class="skill-bar" style="width:55%"></div></div></div>
+  </div>
+  
+  <!-- Programming -->
+  <div class="skill-category">
+  <h3><i class="fa-solid fa-code"></i> Programming</h3>
+  <div class="skill-item"><span>Python</span><div class="skill-level"><div class="skill-bar" style="width:75%"></div></div></div>
+  <div class="skill-item"><span>C/C++</span><div class="skill-level"><div class="skill-bar" style="width:70%"></div></div></div>
+  <div class="skill-item"><span>HTML/CSS</span><div class="skill-level"><div class="skill-bar" style="width:70%"></div></div></div>
+  </div>
+
+<!-- Microsoft Office -->
+  <div class="skill-category">
+  <h3><i class="fa-solid fa-file-lines"></i> Microsoft Office</h3>
+  <div class="skill-item"><span>Word</span><div class="skill-level"><div class="skill-bar" style="width:85%"></div></div></div>
+  <div class="skill-item"><span>Excel</span><div class="skill-level"><div class="skill-bar" style="width:80%"></div></div></div>
+  <div class="skill-item"><span>PowerPoint</span><div class="skill-level"><div class="skill-bar" style="width:85%"></div></div></div>
+  </div>
+  
+  </div>
+  </div>
+</section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+    <h3 class="section-title">Contact</h3>
+    <div class="contact-content">
+    <div class="contact-info">
+    <h3>Get in touch</h3>
+    <p>Open to research assistant roles and internships in systems engineering, CAD, FEM, and automation.</p>
+    <div class="contact-item"><i class="fa-solid fa-envelope"></i><a href="mailto:you@example.com">aryanjha716@gmail.com</a></div>
+    <div class="contact-item"><i class="fa-brands fa-linkedin"></i><a href="#" target="_blank" rel="noopener">LinkedIn</a></div>
+    <div class="contact-item"><i class="fa-brands fa-github"></i><a href="#" target="_blank" rel="noopener">GitHub</a></div>
+    </div>
+    <div class="contact-form-placeholder">
+    <h3>Message</h3>
+    <p>Form coming soon. Reach me via email meanwhile.</p>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container"><p>2025 Aryan Jha</p></div>
+  </footer>
+</body>
+</html>
